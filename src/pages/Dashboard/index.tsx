@@ -1,5 +1,5 @@
 import React from 'react';
-import { FiPower } from 'react-icons/fi';
+import { FiPower, FiClock } from 'react-icons/fi';
 import {
   Container,
   Header,
@@ -42,8 +42,21 @@ const DashBoard: React.FC = () => {
             <span>dia 27</span>
             <span>Quarta-feira</span>
           </p>
+
           <NextAppointment>
             <strong>Atendimento a seguir</strong>
+            <div>
+              <img
+                src="https://avatars3.githubusercontent.com/u/9286063?s=460&u=0e8e2853765ecafc8f47ce285caf8e895b4db0f6&v=4"
+                alt="Arllain"
+              />
+
+              <strong>Arllain</strong>
+              <span>
+                <FiClock />
+                08:00
+              </span>
+            </div>
           </NextAppointment>
         </Schedule>
         <Calendar />
