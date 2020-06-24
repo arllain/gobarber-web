@@ -63,6 +63,8 @@ Technologies that I used to develop this web client
 - [Eslint](https://eslint.org/)
 - [Prettier](https://prettier.io/)
 - [EditorConfig](https://editorconfig.org/)
+- [Testing Library](https://testing-library.com/)
+- [React Hooks Testing Library](https://react-hooks-testing-library.com/)
 
 ## 💻 Getting started
 
