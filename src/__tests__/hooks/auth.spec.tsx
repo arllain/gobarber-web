@@ -1,6 +1,6 @@
 import { renderHook } from '@testing-library/react-hooks';
 import MockAdapter from 'axios-mock-adapter';
-import { act } from 'react-dom/test-utils';
+import { act } from 'react-test-renderer';
 import { useAuth, AuthProvider } from '../../hooks/auth';
 import api from '../../services/api';
 
@@ -52,12 +52,9 @@ describe('Auth hook', () => {
           return 'token-123';
         case '@GoBarber:user':
           return JSON.stringify({
-            user: {
-              id: 'user123',
-              name: 'Test',
-              email: 'test@example.com',
-            },
-            token: 'token-123',
+            id: 'user123',
+            name: 'Test',
+            email: 'test@example.com',
           });
         default:
           return null;
