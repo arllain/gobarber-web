@@ -43,7 +43,7 @@
 
 This is the web app for GoBarber.
 
-To see the **api**, click here: [GoBarber Rest API](https://github.com/EliasGcf/gobarber-api)</br>
+To see the **api**, click here: [GoBarber Rest API](https://github.com/arllain/gobarber-api)</br>
 To see the **mobile client**, click here: [GoBarber Mobile](https://github.com/arllain/gobarber-mobile)
 
 ## 🚀 Technologies
